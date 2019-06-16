@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bread_caffeine"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="50dp"
+                    android:scaleType="centerInside"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/acorn_nut"
+                    android:adjustViewBounds="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Food for Good"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:layout_gravity="center"
+                    android:textSize="24dp"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="70dp"
+                android:weightSum="2">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/pickupLocation"
+                    android:onClick="companyLoginButton"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="7dp"
+                    android:layout_weight="1">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textSize="24dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorBlackish"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:text="Become a donor" />
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/foodUser"
+                    android:onClick="benefactorLoginButton"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="7dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlackish"
+                        android:layout_alignParentLeft="true"
+                        android:paddingTop="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="Find\nfood " />
+
+                </android.support.v7.widget.CardView>
+
+                <!--<Button-->
+                    <!--android:id="@+id/companyLogin"-->
+                    <!--android:layout_width="300dp"-->
+                    <!--android:layout_height="70dp"-->
+                    <!--android:layout_marginBottom="10dp"-->
+                    <!--android:onClick="companyLoginButton"-->
+                    <!--android:text="Entity"/>-->
+
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/volunteerLogin"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="300dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="70dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:onClick="volunteerLoginButton"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="Volunteer"/>&ndash;&gt;-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/benefactorLogin"-->
+                    <!--android:layout_width="300dp"-->
+                    <!--android:layout_height="70dp"-->
+                    <!--android:layout_marginBottom="30dp"-->
+                    <!--android:onClick="benefactorLoginButton"-->
+                    <!--android:text="Benefactor"/>-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:onClick="signInButton"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/button_rounded_corners_outline"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

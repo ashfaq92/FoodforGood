@@ -1,6 +1,7 @@
 # Food4Good
 
-For video demo, <a href="docs/food_for_good.mp4">click here</a> 
+Video demo: <a href="docs/food_for_good.mp4">click here</a> 
+Presentation:
 
 
 

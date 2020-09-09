@@ -1,13 +1,22 @@
 # Food4Good
 
-
-<object data="https://github.com/ashfaq92/FoodforGood/blob/master/Food4Good_16062019(1).pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/ashfaq92/FoodforGood/blob/master/Food4Good_16062019(1).pdf">
-        <p>
-            This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/ashfaq92/FoodforGood/blob/master/Food4Good_16062019(1).pdf">Download PDF</a>
-        </p>
-    </embed>
-</object>
+For video demo, <a href="docs/food_for_good.mp4">click here</a> 
 
 
-![alt text](docs/Slide1.JPG "Title")
+
+![alt text](docs/Slide2.JPG "Title")
+![alt text](docs/Slide3.JPG "Title")
+![alt text](docs/Slide4.JPG "Title")
+![alt text](docs/Slide5.JPG "Title")
+![alt text](docs/Slide6.JPG "Title")
+![alt text](docs/Slide7.JPG "Title")
+![alt text](docs/Slide8.JPG "Title")
+![alt text](docs/Slide9.JPG "Title")
+![alt text](docs/Slide10.JPG "Title")
+![alt text](docs/Slide11.JPG "Title")
+![alt text](docs/Slide12.JPG "Title")
+![alt text](docs/Slide13.JPG "Title")
+![alt text](docs/Slide14.JPG "Title")
+![alt text](docs/Slide15.JPG "Title")
+![alt text](docs/Slide16.JPG "Title")
+![alt text](docs/Slide17.JPG "Title")
